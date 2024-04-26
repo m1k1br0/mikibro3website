@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+#header{
+    height: 10vh;
+    display: flex;
+    background: url(Slike/poz.jpg);    
+}
+
+#nav{
+    display: flex ;
+    background-color: rgba(0, 0, 0, 0.164);
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+#logo{
+    display: flex ;
+    background-color: rgba(0, 0, 0, 0.164);
+    flex-grow: 1;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+}
+#logo img{
+    height: 70px;
+    border-radius: 15px;
+}
+
+#page{
+    background: url(Slike/poz.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+    padding-top: 20px;
+}
+
+#nav a img  {
+    height:40px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+#videos{
+    text-align: center;
+}
+
+video{
+    height: 300px;
+    border-radius: 15px;
+    
+}
+
+#pictures img{
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+#pictures{
+text-align: center;
+}
+
